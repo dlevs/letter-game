@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useState } from "react";
 
-const START_TIME = 8000;
-const DECREASE_BY_TIME = 200;
-const MIN_TIME = 3000;
+const START_TIME = 30_000;
+const DECREASE_BY_TIME = 1_000;
+const MIN_TIME = 10_000;
 const LETTERS = [
   "A",
   "B",
